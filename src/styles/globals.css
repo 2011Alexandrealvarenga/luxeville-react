@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* 
+Bege claro
+#FFF8F2
+Bege
+#DDC7BA
+Color fonts Marrow escuro
+#31231A 
+*/
+
+.color_bege_claro{color: #FFF8F2;}
+.color_bege{color:#DDC7BA}
+.color_marrow_escuro{color: #31231A;}
+
+.bg_bege_claro{background: #FFF8F2;}
+.bg_bege{background: #DDC7BA;}
+.bg_marrow_escuro{background: #31231A;}
+
+.sub_title{font-size: 24px;font-weight: bold;}
+
+.icon-size{
+  width: 24px; 
+  height: 24px;
+  padding: 4px;
+  background: white;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+span{font-size: 14px;}
+
+.border-bottom{
+  border-radius: 0px 0px 8px 8px;
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.border-top{
+  border-radius: 16px 16px 0px 0px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.bs{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 }
