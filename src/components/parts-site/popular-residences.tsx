@@ -14,7 +14,7 @@ export const P_residents = () =>{
         <h2 className='sub_title'>Our Popular Residences</h2>
       </div>
       <div className="container mx-auto">
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-3">
           {/* itens */}
             <div className="itens border-radius-card bs  m-2">
               <div className="img">
