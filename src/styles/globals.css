@@ -18,6 +18,7 @@ Color fonts Marrow escuro
 .bg_marrow_escuro{background: #31231A;}
 
 .sub_title,
+#contact .title,
 #testemonials .title{font-size: 24px;font-weight: bold;}
 
 .br-16{border-radius: 16px;}
@@ -102,5 +103,38 @@ h1,h2,h3,h4,h5,h6,span,p{line-height: 1.0;}
     margin-top: 24px;
     margin-bottom: 24px;
 } 
-
 /* fim - testemonials */
+/* contact */
+#contact .chat-icon{
+  width: 16px;
+}
+#contact .chat{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#contact .chat span{
+  font-weight: bold;
+}
+#contact .content-chat {
+    display: flex;
+    justify-content: center;
+}
+#contact .content-chat .chat-icon{
+  margin-right: 8px;
+}
+#contact .form .input-text{
+  background-color: #DDC7BA;
+  padding: 8px;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+#contact .form .input-btn{
+  background-color: #31231A;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+/* fim - contact */
+
