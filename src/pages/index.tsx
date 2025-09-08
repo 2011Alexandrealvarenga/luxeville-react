@@ -1,20 +1,16 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { P_residents } from "@/components/parts-site/popular-residences";
+import { Help } from "@/components/parts-site/help";
+// import imgXd from '../assets/img/XD PARA TESTAR.jpg';
 
 export default function Home() {
   return (
    <>
-    <p>testando</p>
+   <Help/>
+   <P_residents />
+   {/* <img 
+        src={imgXd.src}
+        className='w-full img-card'
+      /> */}
    </>
   );
 }
