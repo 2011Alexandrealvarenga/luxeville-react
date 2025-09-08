@@ -2,7 +2,7 @@
 import Img_p_residences1 from '../../assets/img/popular-house-1.png'; 
 
 
-import imgXd from '../../assets/img/XD PARA TESTAR.jpg';
+
 import Icon_location from '../../assets/img/icons/marcador-50.png';
 import Icon_room from '../../assets/img/icons/cama-50.png';
 import Icon_meter from '../../assets/img/icons/squad.png'; 
@@ -34,14 +34,10 @@ const P_residents_data = [
   }
 ]
 
-
 export const P_residents = () =>{
   return(
-    <div id="popular_residents" className="bg_claro bg_bege_claro border-4 py-20">
-      {/* <img 
-        src={imgXd.src}
-        className='w-full img-card'
-      /> */}
+    <div id="popular_residents" className="bg_claro bg_bege_claro py-20">
+      
       <div className="container mx-auto text-center mb-5">
         <h2 className='sub_title'>Our Popular Residences</h2>
       </div>
