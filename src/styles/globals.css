@@ -17,7 +17,9 @@ Color fonts Marrow escuro
 .bg_bege{background: #DDC7BA;}
 .bg_marrow_escuro{background: #31231A;}
 
-.sub_title{font-size: 24px;font-weight: bold;}
+.sub_title,
+#testemonials .title{font-size: 24px;font-weight: bold;}
+
 .br-16{border-radius: 16px;}
 
 .icon-size{
@@ -29,7 +31,7 @@ Color fonts Marrow escuro
   margin-right: 8px;
 }
 span{font-size: 14px;}
-
+h1,h2,h3,h4,h5,h6,span,p{line-height: 1.0;}
 .border-bottom{
   border-radius: 0px 0px 8px 8px;
 
@@ -75,3 +77,30 @@ span{font-size: 14px;}
   #help .title{text-align: center;}
  }
 /* fim - help section */
+/* testemonials */
+#testemonials .title{line-height: 1.0;}
+#testemonials .star{width: 8px;}
+#testemonials .item{
+  border-radius: 24px 24px 8px 8px;
+}
+#testemonials .item .thumb{
+  border-radius: 16px 16px 0px 0px;
+}
+#testemonials .item .content{
+  padding: 16px;
+}
+
+#testemonials .icon-content .icon{
+  width: 32px;
+  background: white;
+  padding: 8px;
+  border-radius: 100%;
+}
+#testemonials .content-stars {
+    display: flex;
+    float: right;
+    margin-top: 24px;
+    margin-bottom: 24px;
+} 
+
+/* fim - testemonials */
