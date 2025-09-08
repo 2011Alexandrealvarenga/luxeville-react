@@ -1,15 +1,73 @@
 import imgBanner from '../../assets/img/popular-house-1.png';
+import Icon_location from '../../assets/img/icons/marcador-50.png';
+import User_icon from '../../assets/img/icons/user.png';
+import Check_icon from '../../assets/img/icons/check-list.png';
+import Hands_icon from '../../assets/img/icons/aperto-maos.png'
 
 export const Help = () =>{
   return(
     <section id="help" className="">
-      <div className="container mx-auto">
+      <div className="container mx-auto pt-40">
         <div className="grid sm:grid-cols-2">
           <img
-            src={imgBanner.src}
-            className='border-2 border-amber-600'
+            src={imgBanner.src}   
+            className='img-thumb'         
           />
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem distinctio, nihil hic quo consectetur modi gni culpa a harum ea, consequatur pariatur alias? Rerum, distinctio? Molestias nisi inventore, maxime iure corporis, ab suscipit totam similique fugit officia cum eum aut corrupti autem sapiente non. Voluptas culpa architecto nesciunt enim praesentium quam eaque itaque officia, perferendis aliquam facilis et reprehenderit labore atque quasi sequi! Repudiandae esse, suscipit qui nihil dolorem repellat aut eveniet cumque dolores debitis a? Vel autem, officia, necessitatibus et accusantium quidem explicabo laboriosam, vero quia illum tempore.</p>
+          <div className="content">
+            <h2 className="title mb-4">We Help You To Find Your Dream Home</h2>
+            <p className='mb-4'>Discover premium properties tailored to your lifestyle. From bying to renting, we make deals simple. Your perfect home is just a click away.</p>
+            <div className="k-itens flex justify-center">
+              <div className="itens text-center p-2">
+                <h3 className="subtitle">
+                  8K
+                </h3>
+                <p>Houses available</p>
+              </div>
+              <div className="itens text-center p-2">
+                <h3 className="subtitle">
+                  6K
+                </h3>
+                <p>Houses sold</p>
+              </div>
+              <div className="itens text-center p-2">
+                <h3 className="subtitle">
+                  2K
+                </h3>
+                <p>Trusted Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container mx-auto py-16">
+        <div className="grid grid-cols-1 text-center">
+          <h2 className="subtitle mb-2">Why Choose Us</h2>
+          <p>We combine years of expertise to deliver seamless property solutions.</p>
+          <p>From dream homes to smart investments, and professionalism</p>
+        </div>
+      </div>
+      <div className="container mx-auto pb-40 choose">
+        <div className="grid sm:grid-cols-4">
+          <div className="itens bg_bege br-16 m-2">
+            <img src={Icon_location.src} />
+            <h3 className="sub-title2 font-bold mt-4">Expert Guidance</h3>
+            <p>With years of experience and market knowledge, our experts prvide valuable insights to help you make confident decisions.</p>
+          </div>
+          <div className="itens bg_bege br-16 m-2">
+            <img src={User_icon.src} />
+            <h3 className="sub-title2 font-bold mt-4">Personalized Services</h3>
+            <p>Every client is unique, and so are our solutions. We tailor our services to match your needs, preferences, and goals.</p>
+          </div>
+          <div className="itens bg_bege br-16 m-2">
+            <img src={Check_icon.src} />
+            <h3 className="sub-title2 font-bold mt-4">Trnsparent Process</h3>
+            <p>We believe in honestly and clarity no hidden costs, no surprises, just smooth and reliable real estate transactions.</p>
+          </div>
+          <div className="itens bg_bege br-16 m-2">
+            <img src={Hands_icon.src} />
+            <h3 className="sub-title2 font-bold mt-4">Exceptional Support</h3>
+            <p>With years of experience and market knowledge, our experts prvide valuable insights to help you make confident decisions.</p>
+          </div>          
         </div>
       </div>
     </section>

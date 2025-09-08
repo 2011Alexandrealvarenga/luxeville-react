@@ -18,6 +18,7 @@ Color fonts Marrow escuro
 .bg_marrow_escuro{background: #31231A;}
 
 .sub_title{font-size: 24px;font-weight: bold;}
+.br-16{border-radius: 16px;}
 
 .icon-size{
   width: 24px; 
@@ -40,3 +41,37 @@ span{font-size: 14px;}
 .bs{
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 }
+
+/* help section */
+#help .title,
+#help .subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.0;
+}
+#help .content {
+    padding: 16px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+#help .img-thumb{
+  border-radius: 16px;
+}
+#help .choose .itens {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;    
+  }
+#help .choose .itens img {
+    width: 48px;
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+ @media (max-width: 540px) {
+  #help .title{text-align: center;}
+ }
+/* fim - help section */
