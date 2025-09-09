@@ -1,3 +1,4 @@
+import { Menu } from "@/components/parts-site/menu";
 import { P_residents } from "@/components/parts-site/popular-residences";
 import { Help } from "@/components/parts-site/help";
 import { Testimonials } from "@/components/parts-site/testemonials";
@@ -10,11 +11,14 @@ import { Banner } from "@/components/parts-site/banner";
 export default function Home() {
   return (
    <>
-   <Banner />
-   <Help/>
-   <P_residents />
-   <Testimonials/>
-   <Contact/>
+   <Menu/>
+   <body>
+    <Banner />
+    <Help/>
+    <P_residents />
+    <Testimonials/>
+    <Contact/>
+   </body>
    <Footer/>
    {/* <img 
         src={imgXd.src}
