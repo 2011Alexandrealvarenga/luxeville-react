@@ -17,11 +17,16 @@ Color fonts Marrow escuro
 .bg_bege{background: #DDC7BA;}
 .bg_marrow_escuro{background: #31231A;}
 
+.br-16{border-radius: 16px;}
+span{font-size: 14px;}
+h1, h2, h3, h4, h5, h6, span, p, a{line-height: 1.0;}
+.border-bottom{ border-radius: 0px 0px 8px 8px;}
+.border-top{ border-radius: 16px 16px 0px 0px;}
+.bs{box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);}
+
 .sub_title,
 #contact .title,
 #testemonials .title{font-size: 24px;font-weight: bold;}
-
-.br-16{border-radius: 16px;}
 
 .icon-size{
   width: 24px; 
@@ -31,19 +36,51 @@ Color fonts Marrow escuro
   border-radius: 100%;
   margin-right: 8px;
 }
-span{font-size: 14px;}
-h1, h2, h3, h4, h5, h6, span, p, a{line-height: 1.0;}
-.border-bottom{
-  border-radius: 0px 0px 8px 8px;
 
-}
 
-.border-top{
-  border-radius: 16px 16px 0px 0px;
+
+
+
+
+
+
+/* banner */
+#banner{
+  padding: 80px 0;
 }
-.bs{
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+#banner .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
 }
+#banner .title{
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+#banner .content button{
+  margin-top: 32px;
+}
+#banner .content .btn {
+    width: 120px;
+}
+ @media (max-width: 540px) {
+  #banner .content {
+    text-align: center;
+    align-items: center;
+  }
+  #banner .content .img-banner {
+    width: 90%;
+    margin: auto;
+  }
+}
+/* fim -banner */
+
+
+
+
+
+
 
 /* help section */
 #help .title,
