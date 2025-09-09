@@ -40,6 +40,31 @@ h1, h2, h3, h4, h5, h6, span, p, a{line-height: 1.0;}
 
 
 
+/* Header */
+header{
+  padding: 40px 0;
+  background: #FFF8F2;
+}
+header .logo {
+    margin-right: 120px;
+}
+
+header nav {
+  display: flex;
+}
+header nav ul{
+  display: flex;
+}
+header nav ul li{
+  padding: 8px;
+}
+header nav ul li a{
+  font-weight: bold;
+}
+header .buttons{margin-left: 40px;}
+/* fim Header */
+
+
 
 
 
@@ -75,13 +100,6 @@ h1, h2, h3, h4, h5, h6, span, p, a{line-height: 1.0;}
   }
 }
 /* fim -banner */
-
-
-
-
-
-
-
 /* help section */
 #help .title,
 #help .subtitle {
