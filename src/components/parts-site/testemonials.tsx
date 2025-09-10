@@ -5,7 +5,7 @@ import Star_icon from '../../assets/img/icons/star.svg';
 
 export const Testimonials = () => {
   return(
-    <section id="testemonials" className='py-20'>
+    <section id="testemonials">
       <div className="container mx-auto text-center">
         <h2 className="title py-8">What People Say<br/>About Luxeville</h2>
       </div>

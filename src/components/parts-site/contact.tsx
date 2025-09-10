@@ -2,7 +2,7 @@ import Check_icon from '../../assets/img/icons/check.svg';
 
 export const Contact =()=>{
   return(
-    <section id="contact" className='pb-20'>
+    <section id="contact">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 text-center">
           <h2 className="title pb-8">Do You Have Any Questions<br/>
