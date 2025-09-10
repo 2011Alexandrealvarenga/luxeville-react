@@ -1,10 +1,19 @@
 import Img_logo from '../../assets/img/logo.png';
 
+import arrow_top_icon from '../../assets/img/icons/arrow-top.png';
 import instagram_icon from '../../assets/img/icons/instagram.png';
 import facebook_icon from '../../assets/img/icons/facebook.png';
 import twitter_icon from '../../assets/img/icons/twitter.png';
 
 export const Footer = () =>{
+  
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // Scroll suave
+    });
+  }
+
   return(
     <footer id="footer">
       <div className="container mx-auto">
@@ -56,6 +65,25 @@ export const Footer = () =>{
           <p>Copyright @ 2025 LuxeVilla</p>
         </div>
       </div>
+        <img 
+          src={arrow_top_icon.src} 
+          onClick={scrollToTop}
+          style={{
+            position: 'fixed',
+            width:'48px',
+            bottom: '30px',
+            right: '30px',
+            padding: '8px',
+            fontSize: '16px',
+            borderRadius: '5px',
+            backgroundColor: '#DDC7BA',
+            color: '#fff',
+            border: 'none',
+            cursor: 'pointer',
+          }}
+          
+        />
+       
     </footer>
   )
 }
