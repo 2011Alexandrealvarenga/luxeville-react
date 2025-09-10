@@ -1,16 +1,7 @@
 @import "tailwindcss";
 
-/* 
-Bege claro
-#FFF8F2
-Bege
-#DDC7BA
-Color fonts Marrow escuro
-#31231A 
-*/
-
 .color_bege_claro{color: #FFF8F2;}
-.color_bege{color:#DDC7BA}
+.color_bege{color:#31231A}
 .color_marrow_escuro{color: #31231A;}
 
 .bg_bege_claro{background: #FFF8F2;}
@@ -37,12 +28,8 @@ h1, h2, h3, h4, h5, h6, span, p, a{line-height: 1.0;}
   margin-right: 8px;
 }
 
-
-
-
 /* Header */
 header{
-  padding: 40px 0;
   background: #FFF8F2;
 }
 header .logo {
@@ -62,13 +49,40 @@ header nav ul li a{
   font-weight: bold;
 }
 header .buttons{margin-left: 40px;}
+.menu {
+  background-color: #FFF8F2;
+  padding: 1rem;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #31231A;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.menu-link:hover {
+  color: #31231A;
+  background-color: #e9ecef;
+}
+.menu-link.active {
+  color: #31231A;
+  border-bottom: 2px solid #31231A;
+}
 /* fim Header */
-
-
-
-
-
-
 /* banner */
 #banner{
   padding: 80px 0;
@@ -94,12 +108,24 @@ header .buttons{margin-left: 40px;}
     text-align: center;
     align-items: center;
   }
-  #banner .content .img-banner {
+  #banner .img-banner {
     width: 90%;
     margin: auto;
   }
+  .no-border{border-radius: inherit!important;}
 }
 /* fim -banner */
+/* popular residents */
+#contact{padding-bottom: 120px;}
+#testemonials,
+#help,
+#popular_residents{
+  padding: 120px 0;
+} 
+#popular_residents .itens{ 
+  border-radius: 20px 20px 16px 16px;
+}
+/* fim - popular residents */
 /* help section */
 #help .title,
 #help .subtitle {
@@ -145,7 +171,6 @@ header .buttons{margin-left: 40px;}
 #testemonials .item .content{
   padding: 16px;
 }
-
 #testemonials .icon-content .icon{
   width: 32px;
   background: white;
@@ -158,6 +183,11 @@ header .buttons{margin-left: 40px;}
     margin-top: 24px;
     margin-bottom: 24px;
 } 
+@media (max-width: 540px) {
+  #testemonials .item {
+    margin: 16px 8px;
+  }
+}
 /* fim - testemonials */
 /* contact */
 #contact .chat-icon{
@@ -193,10 +223,14 @@ header .buttons{margin-left: 40px;}
   border-radius: 4px;
   margin-right: 4px;
 }
+@media (max-width: 540px) {
+  #contact .chat {
+      margin-right: 8px;
+  }
+}
 /* fim - contact */
 /* footer */
-#footer
-{
+#footer{
   background: #DDC7BA;
   padding-top: 80px;
 }
@@ -234,4 +268,38 @@ header .buttons{margin-left: 40px;}
 #footer .social a{
   padding: 0;
 }
+#footer .logo{
+  padding: 16px;
+}
+@media (max-width: 540px) {
+  #footer{
+    padding: 40px 0;
+  }
+  #footer .logo,
+  #footer .item-social{
+    padding: 16px;
+  }
+  #footer .copiright{
+    padding: 20px 0;
+  }
+}
 /* fim footer */
+@media (max-width: 540px) {
+  header,
+  header .menu,
+  header .menu .menu-link{padding: inherit;}
+  header nav ul li{ padding: 4px;}
+  
+  header .menu .menu-list{gap: inherit;}
+  header .menu .logo,
+  header .buttons{
+    display: none;
+  }
+
+  #testemonials,
+  #help, 
+  #popular_residents{
+    padding: 40px 0;
+  }
+  #contact{padding-bottom: 40px;}
+ }

@@ -7,11 +7,11 @@ import Hands_icon from '../../assets/img/icons/aperto-maos.png'
 export const Help = () =>{
   return(
     <section id="help" className="">
-      <div className="container mx-auto pt-40">
+      <div className="container mx-auto">
         <div className="grid sm:grid-cols-2">
           <img
             src={imgBanner.src}   
-            className='img-thumb'         
+            className='img-thumb no-border'         
           />
           <div className="content">
             <h2 className="title mb-4">We Help You To Find Your Dream Home</h2>
@@ -46,7 +46,7 @@ export const Help = () =>{
           <p>From dream homes to smart investments, and professionalism</p>
         </div>
       </div>
-      <div className="container mx-auto pb-40 choose">
+      <div className="container mx-auto choose">
         <div className="grid sm:grid-cols-4">
           <div className="itens bg_bege br-16 m-2">
             <img src={Icon_location.src} />

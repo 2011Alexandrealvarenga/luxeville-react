@@ -34,7 +34,7 @@ const P_residents_data = [
 
 export const P_residents = () =>{
   return(
-    <section id="popular_residents" className="bg_claro bg_bege_claro py-40">
+    <section id="popular_residents" className="bg_claro bg_bege_claro">
       
       <div className="container mx-auto text-center mb-5">
         <h2 className='sub_title'>Our Popular Residences</h2>
