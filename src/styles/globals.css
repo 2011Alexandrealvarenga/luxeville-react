@@ -76,7 +76,6 @@ header .buttons{margin-left: 40px;}
 }
 .menu-link:hover {
   color: #31231A;
-  background-color: #e9ecef;
 }
 .menu-link.active {
   color: #31231A;
