@@ -1,4 +1,4 @@
-import Img_testimonials_1 from '../../assets/img/img-testimonials-1.png'; 
+import Img_testimonials_1 from '../../assets/img/img-testimonials-1.png';
 import Img_testimonials_2 from '../../assets/img/img-testimonials-2.png';
 import Img_testimonials_3 from '../../assets/img/img-testimonials-3.png';
 

@@ -1,4 +1,4 @@
-// import imgBanner from '../../assets/img/img-help.png';
+import imgBanner from '../../assets/img/img-help.PNG';
 import Icon_location from '../../assets/img/icons/marcador-50.png';
 import User_icon from '../../assets/img/icons/user.png';
 import Check_icon from '../../assets/img/icons/check-list.png';
@@ -9,7 +9,10 @@ export const Help = () =>{
     <section id="help" className="">
       <div className="container mx-auto">
         <div className="grid sm:grid-cols-2">
-         
+          <img
+            src={imgBanner.src}   
+            className='img-thumb no-border'         
+          />
           <div className="content">
             <h2 className="title mb-4">We Help You To Find Your Dream Home</h2>
             <p className='mb-4'>Discover premium properties tailored to your lifestyle. From bying to renting, we make deals simple. Your perfect home is just a click away.</p>
