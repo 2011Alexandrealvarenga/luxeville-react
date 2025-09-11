@@ -1,4 +1,4 @@
-import imgBanner from '../../assets/img/popular-house-1.png';
+import imgBanner from '../../assets/img/img-help.png';
 import Icon_location from '../../assets/img/icons/marcador-50.png';
 import User_icon from '../../assets/img/icons/user.png';
 import Check_icon from '../../assets/img/icons/check-list.png';
