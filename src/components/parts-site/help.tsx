@@ -1,4 +1,4 @@
-import imgBanner from '../../assets/img/img-help.png';
+import imgBanner from '../../assets/img/img-helps.png';
 import Icon_location from '../../assets/img/icons/marcador-50.png';
 import User_icon from '../../assets/img/icons/user.png';
 import Check_icon from '../../assets/img/icons/check-list.png';
