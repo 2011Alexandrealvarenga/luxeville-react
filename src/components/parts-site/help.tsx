@@ -1,7 +1,8 @@
-import imgBanner from '../../assets/img/popular-house-1.png';
+import imgBanner from '../../assets/img/second-house.png';
 import Icon_location from '../../assets/img/icons/marcador-50.png';
 import User_icon from '../../assets/img/icons/user.png';
 import Check_icon from '../../assets/img/icons/check-list.png';
+import Image from 'next/image';
 import Hands_icon from '../../assets/img/icons/aperto-maos.png'
 
 export const Help = () =>{

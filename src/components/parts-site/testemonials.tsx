@@ -1,4 +1,6 @@
-import Img_p_residences1 from '../../assets/img/popular-house-1.png'; 
+import Img_testimonials_1 from '../../assets/img/house-service-1.PNG'; 
+import Img_testimonials_2 from '../../assets/img/house-service-2.PNG'; 
+import Img_testimonials_3 from '../../assets/img/house-service-3.PNG'; 
 import User_icon from '../../assets/img/icons/user.png';
 import Star_icon from '../../assets/img/icons/star.svg';
 
@@ -12,7 +14,7 @@ export const Testimonials = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-3">
           <div className="item bg_bege bs mx-2">
-            <img src={Img_p_residences1.src}  className='thumb' />
+            <img src={Img_testimonials_1.src}  className='thumb' />
             <div className="content">
               <div className="icon-content flex items-center mb-2">
                 <img src={User_icon.src} className='icon'/>
@@ -29,7 +31,7 @@ export const Testimonials = () => {
             </div>
           </div>
           <div className="item bg_bege bs mx-2">
-            <img src={Img_p_residences1.src}  className='thumb' />
+            <img src={Img_testimonials_2.src}  className='thumb' />
             <div className="content">
               <div className="icon-content flex items-center mb-2">
                 <img src={User_icon.src} className='icon'/>
@@ -46,7 +48,7 @@ export const Testimonials = () => {
             </div>
           </div>
                     <div className="item bg_bege bs mx-2">
-            <img src={Img_p_residences1.src}  className='thumb' />
+            <img src={Img_testimonials_3.src}  className='thumb' />
             <div className="content">
               <div className="icon-content flex items-center mb-2">
                 <img src={User_icon.src} className='icon'/>

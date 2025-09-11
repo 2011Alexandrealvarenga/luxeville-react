@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Menu } from "@/components/parts-site/menu";
 import { P_residents } from "@/components/parts-site/popular-residences";
 import { Help } from "@/components/parts-site/help";

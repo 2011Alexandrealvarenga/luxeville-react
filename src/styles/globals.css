@@ -123,9 +123,13 @@ header .buttons{margin-left: 40px;}
 } 
 #popular_residents .itens{ 
   border-radius: 20px 20px 16px 16px;
+  background: #DDC7BA;
 }
 /* fim - popular residents */
 /* help section */
+#contact .title,
+#testemonials .title,
+#popular_residents .title,
 #help .title,
 #help .subtitle {
     font-size: 32px;
