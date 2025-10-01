@@ -32,7 +32,7 @@ export const Menu: React.FC = () => {
   };
   return(
     <header>
-      <div className="container mx-auto ">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1">
           <nav className='menu flex justify-center'>
             <img src={Img_logo.src} alt="" className="logo" />

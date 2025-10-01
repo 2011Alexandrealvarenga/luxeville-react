@@ -7,7 +7,7 @@ import twitter_icon from '../../assets/img/icons/twitter.png';
 export const Footer = () =>{
   return(
     <footer id="footer">
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-2 sm:grid-cols-5">
           <div className="logo">
             <img src={Img_logo.src} className="img-logo" />
@@ -50,7 +50,7 @@ export const Footer = () =>{
           </div>
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 copiright text-center">
           <hr className="line mb-4" />
           <p>Copyright @ 2025 LuxeVilla</p>

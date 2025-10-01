@@ -7,7 +7,7 @@ import Hands_icon from '../../assets/img/icons/aperto-maos.png'
 export const Help = () =>{
   return(
     <section id="help" className="">
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid sm:grid-cols-2">
           <img
             src={imgBanner.src}   
@@ -39,14 +39,14 @@ export const Help = () =>{
           </div>
         </div>
       </div>
-      <div className="container mx-auto py-16">
+      <div className="container mx-auto max-w-6xl py-16">
         <div className="grid grid-cols-1 text-center">
           <h2 className="subtitle mb-2">Why Choose Us</h2>
           <p>We combine years of expertise to deliver seamless property solutions.</p>
           <p>From dream homes to smart investments, and professionalism</p>
         </div>
       </div>
-      <div className="container mx-auto choose">
+      <div className="container mx-auto max-w-6xl choose">
         <div className="grid sm:grid-cols-4">
           <div className="itens bg_bege br-16 m-2">
             <img src={Icon_location.src} />

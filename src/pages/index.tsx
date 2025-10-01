@@ -12,7 +12,7 @@ export default function Home() {
   return (
    <>
    <Menu/>
-   <body>
+   <body className="">
     <Banner />
     <Help/>
     <P_residents />

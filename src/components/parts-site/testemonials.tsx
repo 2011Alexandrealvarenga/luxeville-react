@@ -9,10 +9,10 @@ import Star_icon from '../../assets/img/icons/star.svg';
 export const Testimonials = () => {
   return(
     <section id="testemonials">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto max-w-6xl text-center">
         <h2 className="title py-8">What People Say<br/>About Luxeville</h2>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 sm:grid-cols-3">
           <div className="item bg_bege bs mx-2">
             <img src={Img_testimonials_1.src}  className='thumb' />
@@ -67,7 +67,7 @@ export const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1">
 
         </div>

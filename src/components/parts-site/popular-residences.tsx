@@ -11,10 +11,10 @@ export const P_residents = () =>{
   return(
     <section id="popular_residents" className="bg_claro bg_bege_claro">
       
-      <div className="container mx-auto text-center mb-5">
+      <div className="container  mx-auto max-w-6xl text-center mb-5">
         <h2 className='title'>Our Popular Residences</h2>
       </div>
-      <div className="container mx-auto">
+      <div className="container  mx-auto max-w-6xl">
         <div className="grid grid-cols-1 sm:grid-cols-3">
 
           <div className="itens border-radius-card bs  m-2 ">
